@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ตอนนี้แอพพลิเคชั่นยังไม่สมบูรณ์
 
-Things you may want to cover:
+## การออกแบบ
 
-* Ruby version
+ตัวแอพนี้จะออกแบบให้เหมือนกับ twitter แต่มีแค่
 
-* System dependencies
+- การเพิ่ม อ่าน แก้ไข ลบ ข้อความ
+- การกด like
+- การ login
 
-* Configuration
+![alt text](img_md/image21135164.png)
 
-* Database creation
+### การเก็บข้อมูลใน DB
 
-* Database initialization
+เก็บข้อมูล content , user_id ที่ post , เก็บการ likes เป็น arrays เพื่อเก็บ user id ที่ like เพื่อป้องกันการกดซ้ำ
+![alt text](img_md/image26545461.png)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+หมายเหตุ : ขอบคุณทางทีมงานที่ให้โอกาสครับ เนื่องจากว่าผมไม่ได้คุ้นชิน framework back-end ส่วนตัวผมถนัด Route Handlers ของ next.js ซึ่งนิยมใช้ front-end framework เลยกลัวจะไม่เหมาะสมกับการทำส่วน back-end จึงต้องใช้เวลาในการศึกษา ruby on rails เพิ่มเติม เลยกินเวลามากขึ้น หากพี่ๆมีแหล่งเรียนรู้เพิ่มเติมไม่ว่าจะเป็นส่วนไหนของ stack สามารถชี้แนะ/feedback กลับมาได้เลยครับ ขอบคุณอีกครั้งครับ
